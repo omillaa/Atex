@@ -12,7 +12,14 @@
         <label for="pergunta">Digite o nome da disciplina:</label><br><br>
         <input type="text" id="pergunta" placeholder="Disciplina"><br><br>
 
-        <button onclick="responder()"id="button-res">Obter Plano</button>
+        <!-- Adicione a lista suspensa para escolher o idioma -->
+        <label for="idioma">Escolha o idioma:</label><br>
+        <select id="idioma">
+            <option value="portugues">Português</option>
+            <option value="ingles">Inglês</option>
+        </select><br><br>
+
+        <button onclick="responder()" id="button-res">Obter Plano</button>
 
         <div id="resposta-container">
             <p id="resposta"></p>

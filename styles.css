@@ -11,7 +11,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background: var(--color-gradient); /* Alterado de background-color para background */
+    background: var(--color-gradient); 
     margin: 0;
     display: flex;
     align-items: center;
@@ -33,7 +33,6 @@ body {
 }
 #button-res
 {   
-
     border-color: #2196f3;
     background: transparent;
     padding: 5px;
