@@ -43,7 +43,6 @@ function generatePlanoDeAula(pergunta, idioma) {
            - Highlight strengths and areas for improvement.
         10. Homework: - Assign homework related to the specific topic.
             - Encourage students to explore additional resources to deepen their understanding.
-        
         `;
     } else {
         // Plano em português (padrão)
@@ -71,6 +70,13 @@ function generatePlanoDeAula(pergunta, idioma) {
     }
 
     return plano;
+
+}
+function redirecionarParaWhatsApp() {
+    var resposta = document.getElementById('resposta').innerText;
+    const numeroTelefone = '5511972553036';
+    const linkWhatsApp = `https://api.whatsapp.com/send?phone=${numeroTelefone}&text=${encodeURIComponent(resposta)}`;
+    window.location.href = linkWhatsApp;
 }
 
 

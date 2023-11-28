@@ -13,7 +13,7 @@
         <input type="text" id="pergunta" placeholder="Disciplina"><br><br>
 
         <!-- Adicione a lista suspensa para escolher o idioma -->
-        <label for="idioma">Escolha o idioma:</label><br>
+        <label for="idioma">Escolha o idioma:</label><br> 
         <select id="idioma">
             <option value="portugues">Português</option>
             <option value="ingles">Inglês</option>
@@ -23,7 +23,12 @@
 
         <div id="resposta-container">
             <p id="resposta"></p>
-            <button onclick="copiarResposta()" id="button-res">Copiar Resposta</button>
+            <button onclick="copiarResposta()" id="button-res">Copiar Planp</button>
+           
+            <button onclick="window.location.href='https://chat.openai.com/'" id="button-res">Ir para o ChatGPT</button>
+            <button onclick="redirecionarParaWhatsApp()" id="button-res">Ir para o WhatsApp</button>
+
+
         </div>
     </div>
 

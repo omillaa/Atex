@@ -1,10 +1,8 @@
 :root {
 
-  
     --color-blue-50: #004173;
     --color-blue-100: #2196f3;
     --color-blue-200: #7cdaf9;
-
 
     --color-gradient: linear-gradient(90deg, var(--color-blue-50), var(--color-blue-100), var(--color-blue-200));
 }
